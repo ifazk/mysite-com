@@ -1,0 +1,20 @@
+{
+  "name": "katex-zmq-icp",
+  "version": "1.0.0",
+  "description": "A ZeroMQ ipc wrapper around KaTeX",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "keywords": [
+    "katex",
+    "zeromq",
+    "ipc"
+  ],
+  "author": "Ifaz Kabir",
+  "license": "MIT",
+  "dependencies": {
+    "katex": "^0.11.1",
+    "zeromq": "^6.0.0-beta.6"
+  }
+}

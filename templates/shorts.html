@@ -1,0 +1,7 @@
+<p>
+    $partial("templates/short-list.html")$$if(nextPageUrl)$
+    <a href="$nextPageUrl$" >Older</a>
+    $endif$$if(previousPageUrl)$$if(nextPageUrl)$&nbsp;$endif$$endif$$if(previousPageUrl)$
+    <a href="$previousPageUrl$" >Newer</a>
+    $endif$
+</p>
