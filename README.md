@@ -14,10 +14,11 @@ To setup KaTeX
 
     cd katex-zmq-ipc && npm install
 
-Modify `templates/default.html` and add correct name in window title.
-Modify `templates/nav.html` and add correct urls for contact information.
-Modify `Makefile` and add correct `rsync` details.
-Modify `images/pic.jpg` and `images/favicon.ico`.
+To make the site your own, do the following
+- Modify `templates/default.html` and add correct name in window title.
+- Modify `templates/nav.html` and add correct urls for contact information.
+- Modify `Makefile` and add correct `rsync` details.
+- Modify `images/pic.jpg` and `images/favicon.ico`.
 
 # Site Generation
 To build the site, you must have a `katex-zmp-ipc` process running.
