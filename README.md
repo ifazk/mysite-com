@@ -26,18 +26,22 @@ To build the site, you must have a `katex-zmp-ipc` process running.
     npm start &
 
 Then start up `hakyll watch`
+
     make
 
 Your static site will be available at localhost:8000.
 
 To kill `hakyll watch`
+
     CTRL + C
 
 To kill `katex-zmq-ipc`
+
     fg
     CTRL + C
 
 To publish via rsync
+
     make publish
 
 # Front matter options when writing markdown
